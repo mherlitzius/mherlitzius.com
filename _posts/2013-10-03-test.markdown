@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Test post"
+date:   2013-10-03
+---
+
+Intro-Text
+
+{% highlight java %}
+public List<PackageWrapper> getApplications() {
+	update();
+	List<PackageWrapper> applications =
+		new ArrayList<PackageWrapper>(applicationWrapperMap.values());
+	Collections.sort(applications);
+	return applications;
+}
+{% endhighlight %}
+
+Text
